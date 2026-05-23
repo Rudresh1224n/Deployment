@@ -29,7 +29,7 @@ app.add_middleware(
 # =========================
 
 client = openai.OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key=os.getenv("NEXUS_API_KEY"),
     base_url="https://apidev.navigatelabsai.com"
 )
 
